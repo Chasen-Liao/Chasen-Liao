@@ -2,7 +2,7 @@
 
 ### Hi there I'm PandaZ :snowflake:
 
-- [Blog](https://www.winterchen.com)
+- [Blog]([https://www.winterchen.com](https://panda-z-coding.github.io/))
 
   
  👨‍💻 18 Years old Developer                             
