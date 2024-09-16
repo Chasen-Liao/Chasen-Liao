@@ -5,6 +5,6 @@
  👨‍💻 18 Years old Developer                            
  :earth_asia: I`m in Huizhou
 - 🤯加油掉头发
-- 🫠Come on,lose you hair
- 
+- 🫠Come on,lose you hair.
+- 😎Let's go coding.
 <img align='left' src="https://github-readme-stats.vercel.app/api?username=Panda-Z&show_icons=true&theme=gotham" alt="Panda-Z" />
