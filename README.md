@@ -7,4 +7,4 @@
 - 🤯加油掉头发
 - 🫠Come on,lose you hair
  
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=Panda-Z&show_icons=true&theme=gotham" alt="Panda-Z" />
+<img align='left' src="https://github-readme-stats.vercel.app/api?username=Panda-Z&show_icons=true&theme=gotham" alt="Panda-Z" />
