@@ -6,5 +6,5 @@
  👨‍💻 18 Years old Developer                            
  :earth_asia: I`m in Huizhou
 - 做更好的自己; Be a better version of yourself; より良い自分になる; 
-![Panda-Z's GitHub stats](https://github-readme-stats.vercel.app/api?username=Panda-Z&show_icons=true&theme=dracula&hide=issues&card_width=550&bg_color=30,0D1117&title_color=#0d1117&icon_color=1F6FEB&hide_rank=true)
+![Panda-Z's GitHub stats](https://github-readme-stats.vercel.app/api?username=Panda-Z&show_icons=true&theme=dracula&hide=issues&card_width=550&bg_color=30,0D1117&title_color=0d1117&icon_color=1F6FEB&hide_rank=true)
 
