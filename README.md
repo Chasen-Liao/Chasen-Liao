@@ -1,4 +1,4 @@
-# ⬆️ My Website -> [clog](https://pandacodingvlog.vercel.app/)
+# ⬆️ My Website -> [Clog](https://pandacodingvlog.vercel.app/)
 ## **Nice to meet you, I'm Chasen ❤️**
 
 
