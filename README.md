@@ -1,13 +1,12 @@
-# 👋 嗨，我是 Chasen (Panda-Z)
-
+# 👋 嗨，我是 Chasen 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com" alt="Typing SVG" />
 </p>
 
 ### 🚀 关于我
-- 🌐 个人博客: [Clog | PandaCodingVlog](https://pandacodingvlog.vercel.app/)
-- 💻 热衷于后端开发与前端技术的结合，追求代码的极致简洁。
-- 📫 如何联系我: [![Email Badge](https://img.shields.io)](mailto:2558891266@qq.com)
+- 🌐 个人博客: [Clog](https://pandacodingvlog.vercel.app/)
+- 💻 热衷于追寻AI技术与开发的结合
+- 📫 联系我: [![Email Badge](https://img.shields.io)](mailto:2558891266@qq.com)
 
 ---
 
