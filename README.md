@@ -10,6 +10,8 @@
 
 </div>
 
+---
+
 ## 🌐 Connect With Me
 
 <div align="center">
@@ -57,16 +59,6 @@
 <div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Chasen-Liao&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j)
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=Chasen-Liao&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)
 
 </div>
 
