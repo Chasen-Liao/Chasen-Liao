@@ -56,7 +56,7 @@
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?username=Chasen-Liao&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j)
+![GitHub Streak](https://streak-stats.demolab.com?user=Chasen-Liao&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j)
 
 </div>
 
