@@ -64,13 +64,6 @@
 
 ---
 
-<div align="center">
-
-<!-- 访问计数 -->
-<img src="https://visitcount.itsvg.in/api?id=Chasen-Liao&icon=2&color=10" alt="Profile Views"/>
-
-<br/><br/>
-
 <!-- 底部波浪 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
