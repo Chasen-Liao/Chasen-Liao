@@ -12,8 +12,6 @@
 
 ---
 
-## 🌐 Connect With Me
-
 <div align="center">
 
 [![Blog](https://img.shields.io/badge/🐼%20Clog%20Blog-Visit%20Now-4ade80?style=for-the-badge&logoColor=white)](https://pandacodingvlog.vercel.app/)
@@ -23,47 +21,11 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-**Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495e?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-
-**Database**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Chasen-Liao&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chasen-Liao&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
 <div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Chasen-Liao&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j)
 
 </div>
-
----
-
 <!-- 底部波浪 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
