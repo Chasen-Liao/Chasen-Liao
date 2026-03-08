@@ -20,11 +20,7 @@
 
 </div>
 
-<div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Chasen-Liao&theme=tokyonight&hide_border=true&date_format=%5BY.%5Dn.j)
-
-</div>
 <!-- 底部波浪 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
