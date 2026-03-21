@@ -10,7 +10,7 @@
 </div>
 <div align="center">
 <!-- 动态打字头部 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=6EE7B7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Chasen+%F0%9F%91%8B;CS+Student+%7C+AI+Enthusiast;Building+cool+stuff+with+code+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=E879F9&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Chasen+%F0%9F%91%8B;CS+Student+%7C+AI+Enthusiast;Building+cool+stuff+with+code+%E2%9C%A8" alt="Typing SVG" />
 <br/>
 
 <div align="center">
