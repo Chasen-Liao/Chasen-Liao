@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 简介横幅 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chasen's%20Dev%20Space&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=计算机科学与技术%20|%20AI%20Explorer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Chasen's%20Dev%20Space&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Explorer&descAlignY=55&descSize=18" width="100%"/>
 
 <!-- 动态打字头部 -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=E879F9&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Chasen+%F0%9F%91%8B;CS+Student+%7C+AI+Enthusiast;Building+cool+stuff+with+code+%E2%9C%A8" alt="Typing SVG" />
@@ -15,7 +15,7 @@
 
 ---
 
-### 🐍 My Commit
+### **My Commit**
 
 <div align="center">
 <picture>
@@ -27,7 +27,7 @@
 
 ---
 
-### My Activate
+### **My Activate**
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chasen-Liao&theme=tokyo-night&hide_border=true&custom_title=Chasen's%20Contribution%20Graph&area=true" width="100%" alt="Chasen's Activity Graph"/>
