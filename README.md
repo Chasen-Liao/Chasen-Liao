@@ -13,16 +13,9 @@
 
 ---
 
-### 👋 About Me
-
 ```text
-📍 China
-🎓 CS Student
-🔬 Interested in AI, Vibe Coding 资深玩家
-💡 热爱创造
+♾️进步
 ```
-
-> Always curious, always shipping.
 
 ---
 
