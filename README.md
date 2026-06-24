@@ -13,12 +13,6 @@
 
 ---
 
-```text
-♾️进步
-```
-
----
-
 ### 🐍 Contribution Snake
 
 <div align="center">
