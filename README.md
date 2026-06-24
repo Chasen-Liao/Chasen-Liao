@@ -18,27 +18,11 @@
 ```text
 📍 China
 🎓 CS Student
-🔬 Interested in AI, Machine Learning & Creative Coding
-🎯 Currently exploring LLM applications and computer vision
-💡 Believing in learning by building
+🔬 Interested in AI, Vibe Coding 资深玩家
+💡 热爱创造
 ```
 
 > Always curious, always shipping.
-
----
-
-### 📚 What I'm Learning
-
-<div align="center">
-
-| Area | Status | Focus |
-| :---: | :---: | :---: |
-| 🔥 Large Language Models | Exploring | Prompt Engineering, RAG, Fine-tuning |
-| 👁️ Computer Vision | Learning | Object Detection, Image Generation |
-| 🐍 Python Ecosystem | Practicing | PyTorch, LangChain, FastAPI |
-| 🌐 Web Development | Building | Next.js, React, Tailwind CSS |
-
-</div>
 
 ---
 
