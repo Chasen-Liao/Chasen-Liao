@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Blog](https://img.shields.io/badge/Blog-Panda%20Coding%20Vlog-4ade80?style=flat-square&logo=vercel&logoColor=white)](https://pandacodingvlog.vercel.app/)
+[![Blog](https://img.shields.io/badge/Blog-Chasen%20Coding%20Vlog-4ade80?style=flat-square&logo=vercel&logoColor=white)](https://chasenclog.vercel.app)
 [![Email](https://img.shields.io/badge/Email-2558891266%40qq.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:2558891266@qq.com)
 
 </div>
