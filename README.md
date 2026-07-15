@@ -40,7 +40,6 @@
   <tr>
     <td colspan="3" valign="top">
       <code>FLAGSHIP / 01</code>
-      <p><strong>DESKTOP AI</strong></p>
       <a href="https://github.com/Chasen-Liao/pi-agent-desktop">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="./assets/project-pi-agent-desktop-dark.svg" />

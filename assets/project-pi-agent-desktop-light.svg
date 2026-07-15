@@ -5,8 +5,6 @@
     .round { font-family: "ui-rounded", "Avenir Next Rounded", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif; }
     .desc { font-family: "ui-rounded", "Avenir Next Rounded", "Trebuchet MS", sans-serif; }
   </style>
-  <rect x="1" y="1" width="998" height="110" rx="16" fill="#fff7fb" stroke="#db2777" stroke-width="2" />
-  <circle cx="7" cy="28" r="7" fill="#db2777" />
   <text x="28" y="39" fill="#2563eb" class="round" font-size="31" font-weight="700">pi-agent-desktop</text>
   <text x="28" y="78" fill="#374151" class="desc" font-size="18">Electron desktop client for the Pi coding agent.</text>
 </svg>
