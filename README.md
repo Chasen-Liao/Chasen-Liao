@@ -7,6 +7,16 @@
 </picture>
 
 <p>
+  <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TYPESCRIPT-17121A?style=for-the-badge&logo=typescript&logoColor=F9A8D4" /></a>
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/PYTHON-17121A?style=for-the-badge&logo=python&logoColor=F9A8D4" /></a>
+  <a href="https://react.dev/"><img alt="React" src="https://img.shields.io/badge/REACT-17121A?style=for-the-badge&logo=react&logoColor=F9A8D4" /></a>
+  <a href="https://www.electronjs.org/"><img alt="Electron" src="https://img.shields.io/badge/ELECTRON-17121A?style=for-the-badge&logo=electron&logoColor=F9A8D4" /></a>
+  <a href="https://www.anthropic.com/claude-code"><img alt="Claude Code" src="https://img.shields.io/badge/CLAUDE_CODE-17121A?style=for-the-badge&logo=anthropic&logoColor=F9A8D4" /></a>
+  <a href="https://openai.com/codex/"><img alt="Codex" src="https://img.shields.io/badge/CODEX-17121A?style=for-the-badge&logo=openai&logoColor=F9A8D4" /></a>
+  <a href="https://github.com/Chasen-Liao?tab=repositories"><img alt="Open Source" src="https://img.shields.io/badge/OPEN_SOURCE-17121A?style=for-the-badge&logo=github&logoColor=F9A8D4" /></a>
+</p>
+
+<p>
   <strong>AI-Native Builder · CS Student · Turning ideas into usable products.</strong><br />
   CS student at GDUFE, China.
 </p>
@@ -25,56 +35,47 @@
 
 <hr />
 
-## Selected Work
+### `// SELECTED_WORK`
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td colspan="3" valign="top">
+      <code>FLAGSHIP / 01</code>
       <h3><a href="https://github.com/Chasen-Liao/pi-agent-desktop">pi-agent-desktop</a></h3>
-      <p><strong>FLAGSHIP · DESKTOP AI</strong></p>
+      <p><strong>DESKTOP AI</strong></p>
       <p>Electron desktop client for the Pi coding agent.</p>
       <p><code>TypeScript</code> <code>Electron</code> <code>AI tooling</code></p>
+      <a href="https://github.com/Chasen-Liao/pi-agent-desktop/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/pi-agent-desktop?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
+      <code>AI ENGINEERING / 02</code>
       <h3><a href="https://github.com/Chasen-Liao/SuperMew">SuperMew</a></h3>
-      <p><strong>AI ENGINEERING</strong></p>
       <p>Agentic RAG focused on context engineering and memory architecture.</p>
       <p><code>Python</code> <code>RAG</code></p>
+      <a href="https://github.com/Chasen-Liao/SuperMew/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/SuperMew?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
     <td width="33%" valign="top">
+      <code>AI-NATIVE TOOLS / 03</code>
       <h3><a href="https://github.com/Chasen-Liao/resume-skills">resume-skills</a></h3>
-      <p><strong>AI-NATIVE TOOLS</strong></p>
       <p>Claude Code skills for resume generation and job-description matching.</p>
       <p><code>Claude Code</code> <code>HTML</code></p>
+      <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="33%" valign="top">
+      <code>KNOWLEDGE SYSTEM / 04</code>
       <h3><a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">Everything-claude-code-Doc</a></h3>
-      <p><strong>KNOWLEDGE SYSTEM</strong></p>
       <p>A practical, continuously updated guide to using Everything Claude Code.</p>
       <p><code>Python</code> <code>Documentation</code> <code>Claude Code</code></p>
+      <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/Everything-claude-code-Doc?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
   </tr>
 </table>
 
 <br />
 
-## Tools I Build With
-
-<p><strong>Languages & Frameworks</strong><br />
-<code>TypeScript</code> <code>Python</code> <code>React</code> <code>Electron</code> <code>Node.js</code>
-</p>
-
-<p><strong>AI Development</strong><br />
-<code>Claude Code</code> <code>Codex</code> <code>Agentic RAG</code> <code>Context Engineering</code>
-</p>
-
-<br />
-
-## GitHub Snapshot
+### `// GITHUB_SNAPSHOT`
 
 <div align="center">
   <a href="https://github.com/Chasen-Liao">
@@ -88,7 +89,7 @@
 
 <br />
 
-## Contribution Snake
+### `// CONTRIBUTION_SNAKE`
 
 <table>
   <tr>
