@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Chasen Liao — AI-Native Builder</title>
+  <desc id="desc">A soft pink, minimal control-plane inspired banner for a GitHub profile.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7fb" />
+      <stop offset="1" stop-color="#ffffff" />
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6" />
+      <stop offset="1" stop-color="#db2777" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fce7f3" stroke-width="1" />
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="1184" height="264" rx="28" fill="url(#surface)" stroke="#f9a8d4" stroke-width="2" />
+  <rect x="8" y="8" width="1184" height="264" rx="28" fill="url(#grid)" opacity="0.55" />
+  <circle cx="1030" cy="76" r="96" fill="#fbcfe8" opacity="0.55" filter="url(#blur)">
+    <animate attributeName="opacity" values="0.35;0.6;0.35" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1100" cy="210" r="48" fill="#f9a8d4" opacity="0.32" />
+  <path d="M70 78H280" stroke="url(#pink)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="70" cy="78" r="8" fill="#db2777" />
+  <text x="70" y="137" fill="#111827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">AI-NATIVE BUILDER</text>
+  <text x="70" y="176" fill="#4b5563" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="3">PRODUCTS · TOOLS · SYSTEMS</text>
+  <text x="70" y="220" fill="#db2777" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">status: building useful things</text>
+  <text x="1110" y="244" fill="#9d174d" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" text-anchor="end">CHASEN / 2026</text>
+</svg>
