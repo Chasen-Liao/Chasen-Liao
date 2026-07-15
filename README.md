@@ -36,64 +36,58 @@
 
 ### `// SELECTED_WORK`
 
-<table border="1" bordercolor="#f472b6" cellpadding="10" cellspacing="0" width="100%">
+<table cellpadding="10" cellspacing="0" width="100%">
   <tr>
-    <td>
-      <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-          <td colspan="3" valign="top">
-            <code>FLAGSHIP / 01</code>
-            <p><strong>DESKTOP AI</strong></p>
-            <a href="https://github.com/Chasen-Liao/pi-agent-desktop">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/project-pi-agent-desktop-dark.svg" />
-                <source media="(prefers-color-scheme: light)" srcset="./assets/project-pi-agent-desktop-light.svg" />
-                <img src="./assets/project-pi-agent-desktop-light.svg" alt="pi-agent-desktop — Electron desktop client for the Pi coding agent" width="100%" />
-              </picture>
-            </a>
-            <p><code>TypeScript</code> <code>Electron</code> <code>AI tooling</code></p>
-            <a href="https://github.com/Chasen-Liao/pi-agent-desktop/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/pi-agent-desktop?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
-          </td>
-        </tr>
-        <tr>
-          <td width="33%" valign="top">
-            <code>AI ENGINEERING / 02</code>
-            <a href="https://github.com/Chasen-Liao/SuperMew">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/project-supermew-dark.svg" />
-                <source media="(prefers-color-scheme: light)" srcset="./assets/project-supermew-light.svg" />
-                <img src="./assets/project-supermew-light.svg" alt="SuperMew — Agentic RAG focused on context engineering and memory architecture" width="100%" />
-              </picture>
-            </a>
-            <p><code>Python</code> <code>RAG</code></p>
-            <a href="https://github.com/Chasen-Liao/SuperMew/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/SuperMew?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
-          </td>
-          <td width="33%" valign="top">
-            <code>AI-NATIVE TOOLS / 03</code>
-            <a href="https://github.com/Chasen-Liao/resume-skills">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/project-resume-skills-dark.svg" />
-                <source media="(prefers-color-scheme: light)" srcset="./assets/project-resume-skills-light.svg" />
-                <img src="./assets/project-resume-skills-light.svg" alt="resume-skills — Claude Code skills for resume generation and job-description matching" width="100%" />
-              </picture>
-            </a>
-            <p><code>Claude Code</code> <code>HTML</code></p>
-            <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
-          </td>
-          <td width="33%" valign="top">
-            <code>KNOWLEDGE SYSTEM / 04</code>
-            <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">
-              <picture>
-                <source media="(prefers-color-scheme: dark)" srcset="./assets/project-ecc-dark.svg" />
-                <source media="(prefers-color-scheme: light)" srcset="./assets/project-ecc-light.svg" />
-                <img src="./assets/project-ecc-light.svg" alt="Everything Claude Code — practical guide to using Everything Claude Code" width="100%" />
-              </picture>
-            </a>
-            <p><code>Python</code> <code>Documentation</code> <code>Claude Code</code></p>
-            <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/Everything-claude-code-Doc?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
-          </td>
-        </tr>
-      </table>
+    <td colspan="3" valign="top">
+      <code>FLAGSHIP / 01</code>
+      <p><strong>DESKTOP AI</strong></p>
+      <a href="https://github.com/Chasen-Liao/pi-agent-desktop">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-pi-agent-desktop-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-pi-agent-desktop-light.svg" />
+          <img src="./assets/project-pi-agent-desktop-light.svg" alt="pi-agent-desktop — Electron desktop client for the Pi coding agent" width="100%" />
+        </picture>
+      </a>
+      <p><code>TypeScript</code> <code>Electron</code> <code>AI tooling</code></p>
+      <a href="https://github.com/Chasen-Liao/pi-agent-desktop/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/pi-agent-desktop?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <code>AI ENGINEERING / 02</code>
+      <a href="https://github.com/Chasen-Liao/SuperMew">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-supermew-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-supermew-light.svg" />
+          <img src="./assets/project-supermew-light.svg" alt="SuperMew — Agentic RAG focused on context engineering and memory architecture" width="100%" />
+        </picture>
+      </a>
+      <p><code>Python</code> <code>RAG</code></p>
+      <a href="https://github.com/Chasen-Liao/SuperMew/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/SuperMew?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>AI-NATIVE TOOLS / 03</code>
+      <a href="https://github.com/Chasen-Liao/resume-skills">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-resume-skills-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-resume-skills-light.svg" />
+          <img src="./assets/project-resume-skills-light.svg" alt="resume-skills — Claude Code skills for resume generation and job-description matching" width="100%" />
+        </picture>
+      </a>
+      <p><code>Claude Code</code> <code>HTML</code></p>
+      <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <code>KNOWLEDGE SYSTEM / 04</code>
+      <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-ecc-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-ecc-light.svg" />
+          <img src="./assets/project-ecc-light.svg" alt="Everything Claude Code — practical guide to using Everything Claude Code" width="100%" />
+        </picture>
+      </a>
+      <p><code>Python</code> <code>Documentation</code> <code>Claude Code</code></p>
+      <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/Everything-claude-code-Doc?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
   </tr>
 </table>

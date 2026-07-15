@@ -4,6 +4,7 @@
   <style>
     .round { font-family: "ui-rounded", "Avenir Next Rounded", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif; }
   </style>
+  <rect x="1" y="1" width="338" height="130" rx="16" fill="#161b22" stroke="#f9a8d4" stroke-width="2" />
   <circle cx="7" cy="28" r="6" fill="#f9a8d4" />
   <text x="24" y="38" fill="#60a5fa" class="round" font-size="27" font-weight="700">SuperMew</text>
   <text x="24" y="74" fill="#e5e7eb" class="round" font-size="16">Agentic RAG focused on context</text>
