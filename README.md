@@ -40,9 +40,9 @@
   <tr>
     <td colspan="3" valign="top">
       <code>FLAGSHIP / 01</code>
-      <h3><a href="https://github.com/Chasen-Liao/pi-agent-desktop">pi-agent-desktop</a></h3>
-      <p><strong>DESKTOP AI</strong></p>
-      <p>Electron desktop client for the Pi coding agent.</p>
+      <h3><a href="https://github.com/Chasen-Liao/pi-agent-desktop"><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">pi-agent-desktop</font></a></h3>
+      <p><strong><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">DESKTOP AI</font></strong></p>
+      <p><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">Electron desktop client for the Pi coding agent.</font></p>
       <p><code>TypeScript</code> <code>Electron</code> <code>AI tooling</code></p>
       <a href="https://github.com/Chasen-Liao/pi-agent-desktop/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/pi-agent-desktop?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
@@ -50,22 +50,22 @@
   <tr>
     <td width="33%" valign="top">
       <code>AI ENGINEERING / 02</code>
-      <h3><a href="https://github.com/Chasen-Liao/SuperMew">SuperMew</a></h3>
-      <p>Agentic RAG focused on context engineering and memory architecture.</p>
+      <h3><a href="https://github.com/Chasen-Liao/SuperMew"><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">SuperMew</font></a></h3>
+      <p><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">Agentic RAG focused on context engineering and memory architecture.</font></p>
       <p><code>Python</code> <code>RAG</code></p>
       <a href="https://github.com/Chasen-Liao/SuperMew/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/SuperMew?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
     <td width="33%" valign="top">
       <code>AI-NATIVE TOOLS / 03</code>
-      <h3><a href="https://github.com/Chasen-Liao/resume-skills">resume-skills</a></h3>
-      <p>Claude Code skills for resume generation and job-description matching.</p>
+      <h3><a href="https://github.com/Chasen-Liao/resume-skills"><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">resume-skills</font></a></h3>
+      <p><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">Claude Code skills for resume generation and job-description matching.</font></p>
       <p><code>Claude Code</code> <code>HTML</code></p>
       <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
     <td width="33%" valign="top">
       <code>KNOWLEDGE SYSTEM / 04</code>
-      <h3><a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">Everything-claude-code-Doc</a></h3>
-      <p>A practical, continuously updated guide to using Everything Claude Code.</p>
+      <h3><a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc"><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">Everything-claude-code-Doc</font></a></h3>
+      <p><font face="Trebuchet MS, Arial Rounded MT Bold, ui-rounded, sans-serif">A practical, continuously updated guide to using Everything Claude Code.</font></p>
       <p><code>Python</code> <code>Documentation</code> <code>Claude Code</code></p>
       <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/Everything-claude-code-Doc?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
