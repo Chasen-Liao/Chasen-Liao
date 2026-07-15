@@ -34,7 +34,11 @@
 
 <hr />
 
-### `// SELECTED_WORK`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-selected-work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-selected-work-light.svg" />
+  <img src="./assets/section-selected-work-light.svg" alt="Selected Work" width="360" />
+</picture>
 
 <table>
   <tr>
@@ -94,7 +98,11 @@
 
 <br />
 
-### `// GITHUB_SNAPSHOT`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-github-snapshot-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-github-snapshot-light.svg" />
+  <img src="./assets/section-github-snapshot-light.svg" alt="GitHub Snapshot" width="360" />
+</picture>
 
 <div align="center">
   <a href="https://github.com/Chasen-Liao">
@@ -108,7 +116,11 @@
 
 <br />
 
-### `// CONTRIBUTION_SNAKE`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/section-contribution-snake-light.svg" />
+  <img src="./assets/section-contribution-snake-light.svg" alt="Contribution Snake" width="360" />
+</picture>
 
 <table>
   <tr>
