@@ -16,12 +16,11 @@
   <a href="https://github.com/Chasen-Liao?tab=repositories"><img alt="Open Source" src="https://img.shields.io/badge/OPEN_SOURCE-17121A?style=for-the-badge&logo=github&logoColor=F9A8D4" /></a>
 </p>
 
-<p>
-  <strong>AI-Native Builder · CS Student · Turning ideas into usable products.</strong><br />
-  CS student at GDUFE, China.
-</p>
-
-<p>Currently exploring agentic workflows, context engineering, and AI-native developer experiences.</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-intro-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-intro-light.svg" />
+  <img src="./assets/profile-intro-light.svg" alt="AI-Native Builder and CS student at GDUFE, China, exploring agentic workflows, context engineering, and AI-native developer experiences." width="100%" />
+</picture>
 
 <p>
   <a href="https://chasen-intro.vercel.app/">Personal Site</a>
