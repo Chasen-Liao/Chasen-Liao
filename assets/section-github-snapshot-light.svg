@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="58" viewBox="0 0 360 58" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub Snapshot</title>
-  <desc id="desc">GitHub Snapshot section label.</desc>
-  <rect x="1" y="1" width="358" height="56" rx="16" fill="#fff7fb" stroke="#f472b6" stroke-width="2" />
-  <path d="M20 18V40M28 18V40" stroke="#db2777" stroke-width="3" stroke-linecap="round" />
-  <text x="48" y="37" fill="#831843" font-family="SFMono-Regular,Consolas,monospace" font-size="20" font-weight="700" letter-spacing="1">GITHUB_SNAPSHOT</text>
-</svg>
