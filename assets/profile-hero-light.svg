@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Chasen Liao — AI-Native Builder</title>
-  <desc id="desc">A soft pink, minimal control-plane inspired banner for a GitHub profile.</desc>
+  <desc id="desc">A soft pink control panel with a flowing signal, pulsing core, and active status indicator.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#fff7fb" />
@@ -10,23 +10,75 @@
       <stop offset="0" stop-color="#f472b6" />
       <stop offset="1" stop-color="#db2777" />
     </linearGradient>
+    <radialGradient id="reactor">
+      <stop stop-color="#ffffff" />
+      <stop offset="0.2" stop-color="#f472b6" />
+      <stop offset="0.6" stop-color="#fbcfe8" stop-opacity="0.78" />
+      <stop offset="1" stop-color="#fff7fb" stop-opacity="0" />
+    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#fce7f3" stroke-width="1" />
+      <circle cx="0" cy="0" r="1" fill="#db2777" opacity="0.18" />
     </pattern>
     <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="24" />
     </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="8" y="8" width="1184" height="304" rx="24" /></clipPath>
   </defs>
-  <rect x="8" y="8" width="1184" height="264" rx="28" fill="url(#surface)" stroke="#f9a8d4" stroke-width="2" />
-  <rect x="8" y="8" width="1184" height="264" rx="28" fill="url(#grid)" opacity="0.55" />
-  <circle cx="1030" cy="76" r="96" fill="#fbcfe8" opacity="0.55" filter="url(#blur)">
-    <animate attributeName="opacity" values="0.35;0.6;0.35" dur="6s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1100" cy="210" r="48" fill="#f9a8d4" opacity="0.32" />
-  <path d="M70 78H280" stroke="url(#pink)" stroke-width="6" stroke-linecap="round" />
-  <circle cx="70" cy="78" r="8" fill="#db2777" />
-  <text x="70" y="137" fill="#111827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">AI-NATIVE BUILDER</text>
-  <text x="70" y="176" fill="#4b5563" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="3">PRODUCTS · TOOLS · SYSTEMS</text>
-  <text x="70" y="220" fill="#db2777" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">status: building useful things</text>
-  <text x="1110" y="244" fill="#9d174d" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" text-anchor="end">CHASEN / 2026</text>
+  <style>
+    text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .flow { stroke-dasharray: 8 10; animation: flow 5s linear infinite; }
+    .blink { animation: blink 2.4s steps(1) infinite; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
+    .scan { animation: scan 7s linear infinite; }
+    .node { animation: node 6.4s ease-in-out infinite; }
+    .node.n2 { animation-delay: .35s; }
+    .node.n3 { animation-delay: .7s; }
+    .node.n4 { animation-delay: 1.05s; }
+    @keyframes flow { to { stroke-dashoffset: -72; } }
+    @keyframes blink { 0%, 76% { opacity: 1; } 77%, 84% { opacity: .2; } 85% { opacity: 1; } }
+    @keyframes pulse { 0%, 100% { transform: scale(.92); opacity: .66; } 50% { transform: scale(1.08); opacity: 1; } }
+    @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1420px); } }
+    @keyframes node { 0%, 42%, 100% { opacity: .45; } 12%, 30% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="8" y="8" width="1184" height="304" rx="24" fill="url(#surface)" stroke="#f9a8d4" stroke-width="2" />
+  <g clip-path="url(#screen)">
+    <rect x="8" y="8" width="1184" height="304" fill="url(#grid)" opacity="0.55" />
+    <g class="scan" opacity="0.12"><rect x="-120" y="8" width="90" height="304" fill="#f472b6" /><rect x="-30" y="8" width="90" height="304" fill="url(#pink)" opacity="0.2" /></g>
+    <circle cx="1040" cy="132" r="100" fill="#fbcfe8" opacity="0.45" filter="url(#blur)" />
+  </g>
+  <line x1="8" y1="60" x2="1192" y2="60" stroke="#fbcfe8" />
+  <circle cx="38" cy="36" r="4" fill="#f472b6" />
+  <circle cx="54" cy="36" r="4" fill="#fbbf24" />
+  <circle cx="70" cy="36" r="4" fill="#34d399" />
+  <text x="92" y="40" fill="#9d174d" font-size="12" letter-spacing="2">CHASEN / BUILD_SYSTEM</text>
+  <circle cx="1040" cy="36" r="4" fill="#db2777" class="blink" filter="url(#glow)" />
+  <text x="1052" y="40" fill="#6b7280" font-size="11" letter-spacing="1.4">SYSTEM ONLINE</text>
+  <path d="M70 88H300" stroke="url(#pink)" stroke-width="5" stroke-linecap="round" />
+  <circle cx="70" cy="88" r="7" fill="#db2777" />
+  <text x="70" y="145" fill="#111827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">AI-NATIVE BUILDER</text>
+  <text x="70" y="183" fill="#4b5563" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="3">PRODUCTS · TOOLS · SYSTEMS</text>
+  <text x="70" y="225" fill="#db2777" font-size="14">status: building useful things</text>
+  <path d="M760 116H900M900 116 962 142M900 116 962 90" fill="none" stroke="#f472b6" stroke-width="1.3" opacity="0.6" class="flow" />
+  <g transform="translate(1040 140)">
+    <circle r="92" fill="none" stroke="#fbcfe8" stroke-width="1" />
+    <circle r="68" fill="none" stroke="#db2777" stroke-width="1.5" opacity="0.55" stroke-dasharray="9 12" class="flow" />
+    <circle r="48" fill="url(#reactor)" class="pulse" />
+    <circle r="18" fill="#fff7fb" stroke="#db2777" stroke-width="1.5" filter="url(#glow)" />
+    <circle r="5" fill="#9d174d" filter="url(#glow)" />
+    <g fill="#fff7fb" stroke="#db2777">
+      <circle cx="0" cy="-92" r="6" class="node" />
+      <circle cx="80" cy="-46" r="6" class="node n2" />
+      <circle cx="80" cy="46" r="6" class="node n3" />
+      <circle cx="0" cy="92" r="6" class="node n4" />
+    </g>
+    <text x="-42" y="119" fill="#9d174d" font-size="10" letter-spacing="2">LIVE SIGNAL</text>
+  </g>
+  <text x="70" y="282" fill="#9d174d" font-size="10" letter-spacing="3">LOCAL ASSETS / LIGHT MODE</text>
+  <text x="1110" y="282" fill="#9d174d" font-size="12" text-anchor="end">CHASEN / 2026</text>
 </svg>
