@@ -19,11 +19,17 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-intro-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-intro-light.svg" />
-  <img src="./assets/profile-intro-light.svg" alt="AI-Native Builder and CS student at GDUFE, China, exploring agentic workflows, context engineering, and AI-native developer experiences." width="100%" />
+  <img src="./assets/profile-intro-light.svg" alt="CS student at GDUFE and AI tooling builder exploring agentic workflows, context engineering, and developer experiences." width="100%" />
 </picture>
 
 <p>
+  <strong>Currently exploring:</strong> agentic workflows, context engineering, and AI-native developer experiences.
+</p>
+
+<p>
   <a href="https://chasen-intro.vercel.app/">Personal Site</a>
+  ·
+  <a href="https://github.com/Chasen-Liao?tab=repositories">Repositories</a>
   ·
   <a href="https://chasenclog.vercel.app/">Blog</a>
   ·
@@ -34,7 +40,7 @@
 
 <hr />
 
-### `// SELECTED_WORK`
+### `// SELECTED_WORK` · Selected work
 
 <table cellpadding="10" cellspacing="0" width="100%">
   <tr>
@@ -47,7 +53,9 @@
           <img src="./assets/project-pi-agent-desktop-light.svg" alt="pi-agent-desktop — Electron desktop client for the Pi coding agent" width="100%" />
         </picture>
       </a>
+      <p><strong>Desktop workspace for running and managing Pi coding agents.</strong></p>
       <p><code>TypeScript</code> <code>Electron</code> <code>AI tooling</code></p>
+      <p><a href="https://github.com/Chasen-Liao/pi-agent-desktop">Repository</a> · <a href="https://github.com/Chasen-Liao/pi-agent-desktop/releases">Releases</a> · <a href="https://chasen-liao.github.io/pi-agent-desktop/">Project site</a></p>
       <a href="https://github.com/Chasen-Liao/pi-agent-desktop/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/pi-agent-desktop?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
   </tr>
@@ -61,7 +69,9 @@
           <img src="./assets/project-supermew-light.svg" alt="SuperMew — Agentic RAG focused on context engineering and memory architecture" width="100%" />
         </picture>
       </a>
+      <p><strong>Agentic RAG work focused on context engineering and memory architecture.</strong></p>
       <p><code>Python</code> <code>RAG</code></p>
+      <p><a href="https://github.com/Chasen-Liao/SuperMew">Repository</a> · <a href="https://github.com/Chasen-Liao/SuperMew/pulls">Experiments</a></p>
       <a href="https://github.com/Chasen-Liao/SuperMew/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/SuperMew?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
     <td width="33%" valign="top">
@@ -73,7 +83,9 @@
           <img src="./assets/project-resume-skills-light.svg" alt="resume-skills — Claude Code skills for resume generation and job-description matching" width="100%" />
         </picture>
       </a>
+      <p><strong>Claude Code skills for resume generation and job-description matching.</strong></p>
       <p><code>Claude Code</code> <code>HTML</code></p>
+      <p><a href="https://github.com/Chasen-Liao/resume-skills">Repository</a> · <a href="https://github.com/Chasen-Liao/resume-skills/issues">Discuss an idea</a></p>
       <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
     <td width="33%" valign="top">
@@ -85,7 +97,9 @@
           <img src="./assets/project-ecc-light.svg" alt="Everything Claude Code — practical guide to using Everything Claude Code" width="100%" />
         </picture>
       </a>
+      <p><strong>A practical, continuously updated guide to Everything Claude Code.</strong></p>
       <p><code>Python</code> <code>Documentation</code> <code>Claude Code</code></p>
+      <p><a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">Repository</a> · <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/issues">Share a technique</a></p>
       <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/Everything-claude-code-Doc?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
     </td>
   </tr>
@@ -93,7 +107,7 @@
 
 <br />
 
-### `// GITHUB_SNAPSHOT`
+### `// GITHUB_SNAPSHOT` · GitHub snapshot
 
 <div align="center">
   <a href="https://github.com/Chasen-Liao">
@@ -107,7 +121,7 @@
 
 <br />
 
-### `// CONTRIBUTION_SNAKE`
+### `// CONTRIBUTION_SNAKE` · Contribution signal
 
 <table>
   <tr>
@@ -116,7 +130,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chasen-Liao/Chasen-Liao/output/github-contribution-grid-snake-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chasen-Liao/Chasen-Liao/output/github-contribution-grid-snake.svg" />
-        <img alt="Animated contribution snake in a soft pink palette" src="https://raw.githubusercontent.com/Chasen-Liao/Chasen-Liao/output/github-contribution-grid-snake.svg" width="100%" />
+        <img alt="Animated contribution activity chart in a soft pink palette" src="https://raw.githubusercontent.com/Chasen-Liao/Chasen-Liao/output/github-contribution-grid-snake.svg" width="100%" />
       </picture>
     </td>
   </tr>

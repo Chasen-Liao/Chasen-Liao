@@ -31,17 +31,17 @@
   </defs>
   <style>
     text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-    .flow { stroke-dasharray: 8 10; animation: flow 5s linear infinite; }
-    .blink { animation: blink 2.4s steps(1) infinite; }
-    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
-    .scan { animation: scan 7s linear infinite; }
-    .node { animation: node 6.4s ease-in-out infinite; }
+    .flow { stroke-dasharray: 8 10; animation: flow 7s linear infinite; }
+    .blink { animation: blink 3.4s steps(1) infinite; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.6s ease-in-out infinite; }
+    .scan { animation: scan 11s linear infinite; }
+    .node { animation: node 8s ease-in-out infinite; }
     .node.n2 { animation-delay: .35s; }
     .node.n3 { animation-delay: .7s; }
     .node.n4 { animation-delay: 1.05s; }
     @keyframes flow { to { stroke-dashoffset: -72; } }
     @keyframes blink { 0%, 76% { opacity: 1; } 77%, 84% { opacity: .2; } 85% { opacity: 1; } }
-    @keyframes pulse { 0%, 100% { transform: scale(.92); opacity: .66; } 50% { transform: scale(1.08); opacity: 1; } }
+    @keyframes pulse { 0%, 100% { transform: scale(.95); opacity: .7; } 50% { transform: scale(1.05); opacity: 1; } }
     @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1420px); } }
     @keyframes node { 0%, 42%, 100% { opacity: .45; } 12%, 30% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
@@ -63,7 +63,7 @@
   <circle cx="70" cy="88" r="7" fill="#f9a8d4" />
   <text x="70" y="145" fill="#fff1f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">AI-NATIVE BUILDER</text>
   <text x="70" y="183" fill="#e5e7eb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="3">PRODUCTS · TOOLS · SYSTEMS</text>
-  <text x="70" y="225" fill="#f9a8d4" font-size="14">status: building useful things</text>
+  <text x="70" y="225" fill="#f9a8d4" font-size="14">status: building practical tools</text>
   <path d="M760 116H900M900 116 962 142M900 116 962 90" fill="none" stroke="#f472b6" stroke-width="1.3" opacity="0.65" class="flow" />
   <g transform="translate(1040 140)">
     <circle r="92" fill="none" stroke="#4b273f" stroke-width="1" />
@@ -80,5 +80,5 @@
     <text x="-42" y="119" fill="#f9a8d4" font-size="10" letter-spacing="2">LIVE SIGNAL</text>
   </g>
   <text x="70" y="282" fill="#f9a8d4" font-size="10" letter-spacing="3">LOCAL ASSETS / DARK MODE</text>
-  <text x="1110" y="282" fill="#fbcfe8" font-size="12" text-anchor="end">CHASEN / 2026</text>
+  <text x="1110" y="282" fill="#fbcfe8" font-size="12" text-anchor="end">CHASEN / BUILDING</text>
 </svg>
