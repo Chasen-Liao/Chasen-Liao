@@ -140,3 +140,18 @@
   <br />
   <a href="https://chasen-intro.vercel.app/">More about me →</a>
 </div>
+
+<br />
+
+### `// GITHUB_ROAST` · GitHub Roast
+
+<!-- ghfind.com snapshot: 2026-09-16. Local SVGs use the profile's pink palette; scores do not auto-refresh. -->
+<div align="center">
+  <a href="https://ghfind.com/u/chasen-liao?ref=badge">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/ghfind-card-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/ghfind-card-light.svg" />
+      <img src="./assets/ghfind-card-light.svg" alt="GitHub Roast score card — 2026-09-16 快照，点击查看最新评分" width="440" />
+    </picture>
+  </a>
+</div>
