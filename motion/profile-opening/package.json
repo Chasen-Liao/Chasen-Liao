@@ -1,0 +1,17 @@
+{
+  "name": "chasen-profile-opening",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Short wordmark opening adapted from Chasen's original Remotion intro, without the 3D portrait card.",
+  "scripts": {
+    "render": "remotion render src/index.ts ProfileOpening ../../assets/profile-v2/opening.mp4 --codec h264",
+    "still": "remotion still src/index.ts ProfileOpening ../../assets/profile-v2/opening-poster.png --frame 95"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  }
+}
