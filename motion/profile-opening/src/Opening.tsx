@@ -20,13 +20,83 @@ const { fontFamily: mono } = loadMono("normal", {
   subsets: ["latin"],
 });
 
-const PAPER = "#F4EFE6";
-const INK = "#1A1714";
-const ACCENT = "#F0652E";
-const LINE = "#C9C0B2";
-const MUTED = "#7d756a";
-const INK_SOFT = "#3a342d";
-const CYAN = "#87E1F0";
+// The scene is themed through CSS custom properties so one animation serves
+// both the paper and the charcoal cut: the root sets the variables, every
+// element below only refers to them.
+const PAPER = "var(--paper)";
+const INK = "var(--ink)";
+const ACCENT = "var(--accent)";
+const LINE = "var(--line)";
+const MUTED = "var(--muted)";
+const INK_SOFT = "var(--ink-soft)";
+const CYAN = "var(--cyan)";
+
+export type Scheme = "light" | "dark";
+
+type ThemeVars = {
+  "--paper": string;
+  "--ink": string;
+  "--accent": string;
+  "--line": string;
+  "--muted": string;
+  "--ink-soft": string;
+  "--cyan": string;
+  "--grid": string;
+  "--dash": string;
+  "--grain-blend": "multiply" | "screen";
+  "--grain-opacity": number;
+  // "r,g,b" of the accent, so glows can carry a per-theme alpha.
+  "--accent-rgb": string;
+  "--cyan-rgb": string;
+  // The power-on bloom. On paper a white flash is invisible; on charcoal the
+  // same white core turns into a grey blob, so the dark cut runs a warm one.
+  "--flash-core": string;
+  "--flash-mid": string;
+  "--flash-peak": number;
+};
+
+const THEME: Record<Scheme, ThemeVars> = {
+  light: {
+    "--paper": "#F4EFE6",
+    "--ink": "#1A1714",
+    "--accent": "#F0652E",
+    "--line": "#C9C0B2",
+    "--muted": "#7d756a",
+    "--ink-soft": "#3a342d",
+    "--cyan": "#87E1F0",
+    "--grid": "rgba(26,23,20,.05)",
+    "--dash": "rgba(26,23,20,.22)",
+    "--grain-blend": "multiply",
+    "--grain-opacity": 0.05,
+    "--accent-rgb": "240,101,46",
+    "--cyan-rgb": "135,225,240",
+    "--flash-core": "rgba(255,255,255,.9)",
+    "--flash-mid": "rgba(240,101,46,.35)",
+    "--flash-peak": 0.42,
+  },
+  dark: {
+    // Warm charcoal ground, paper type: the sheet keeps its paper identity
+    // without becoming a bright slab on GitHub's dark canvas.
+    "--paper": "#16130F",
+    "--ink": "#F4EFE6",
+    "--accent": "#E0682E",
+    "--line": "#3B342B",
+    "--muted": "#A8A093",
+    "--ink-soft": "#C9C0B2",
+    "--cyan": "#87E1F0",
+    "--grid": "rgba(244,239,230,.045)",
+    "--dash": "rgba(244,239,230,.2)",
+    // On charcoal the grain has to lighten the sheet instead of darkening it.
+    "--grain-blend": "screen",
+    "--grain-opacity": 0.035,
+    "--accent-rgb": "224,104,46",
+    "--cyan-rgb": "135,225,240",
+    // A white core would read as a grey blob here, so the dark cut pulses warm.
+    "--flash-core": "rgba(224,104,46,.55)",
+    "--flash-mid": "rgba(224,104,46,.14)",
+    "--flash-peak": 0.3,
+  },
+};
 
 const EASE_OUT = Easing.bezier(0.16, 1, 0.3, 1);
 const EASE_SNAP = Easing.bezier(0.34, 1.4, 0.5, 1);
@@ -54,8 +124,8 @@ const Grain: React.FC = () => {
     <AbsoluteFill
       style={{
         backgroundImage: GRAIN,
-        opacity: 0.05,
-        mixBlendMode: "multiply",
+        opacity: "var(--grain-opacity)" as unknown as number,
+        mixBlendMode: "var(--grain-blend)" as unknown as "multiply",
         pointerEvents: "none",
       }}
     />
@@ -77,8 +147,8 @@ const BlueprintGrid: React.FC = () => {
       style={{
         opacity: flicker,
         scale,
-        backgroundImage: `linear-gradient(rgba(26,23,20,.05) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(26,23,20,.05) 1px, transparent 1px)`,
+        backgroundImage: `linear-gradient(var(--grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid) 1px, transparent 1px)`,
         backgroundSize: "120px 120px",
         WebkitMaskImage:
           "radial-gradient(ellipse 70% 66% at 50% 50%, #000 30%, transparent 100%)",
@@ -89,7 +159,7 @@ const BlueprintGrid: React.FC = () => {
   );
 };
 
-const PowerOn: React.FC = () => {
+const PowerOn: React.FC<{ peak: number }> = ({ peak }) => {
   const frame = useCurrentFrame();
   const { width, height } = useLayout();
   const lineY = height / 2;
@@ -103,7 +173,9 @@ const PowerOn: React.FC = () => {
     [0, 1, 1, 0],
     clamp,
   );
-  const flash = interpolate(frame, [0, 2, 8], [0.42, 0.22, 0], clamp);
+  // The bloom shape is fixed; the theme only sets how far it may push.
+  const flash =
+    interpolate(frame, [0, 2, 8], [0.42, 0.22, 0], clamp) * (peak / 0.42);
 
   return (
     <>
@@ -111,7 +183,7 @@ const PowerOn: React.FC = () => {
         style={{
           opacity: flash,
           background:
-            "radial-gradient(circle at 50% 50%, rgba(255,255,255,.9), rgba(240,101,46,.35) 30%, transparent 65%)",
+            "radial-gradient(circle at 50% 50%, var(--flash-core), var(--flash-mid) 30%, transparent 65%)",
           mixBlendMode: "screen",
         }}
       />
@@ -125,7 +197,7 @@ const PowerOn: React.FC = () => {
           scale: `${lineScale} 1`,
           opacity: lineOpacity,
           background: `linear-gradient(90deg, transparent, ${ACCENT} 15%, ${ACCENT} 85%, transparent)`,
-          boxShadow: `0 0 22px 3px rgba(240,101,46,.5)`,
+          boxShadow: `0 0 22px 3px rgba(var(--accent-rgb),.5)`,
         }}
       />
     </>
@@ -245,7 +317,7 @@ const HorizontalSweep: React.FC = () => {
         height: 2,
         opacity,
         background: `linear-gradient(90deg, transparent 0%, ${ACCENT} 18%, ${ACCENT} 82%, transparent 100%)`,
-        boxShadow: `0 0 26px 4px rgba(240,101,46,.38)`,
+        boxShadow: `0 0 26px 4px rgba(var(--accent-rgb),.38)`,
       }}
     />
   );
@@ -305,7 +377,7 @@ const CenterMark: React.FC = () => {
           style={{
             position: "absolute",
             inset: -34,
-            border: `1px dashed rgba(26,23,20,.22)`,
+            border: `1px dashed var(--dash)`,
             borderRadius: "50%",
             rotate: `${frame * 0.7}deg`,
           }}
@@ -368,7 +440,7 @@ const CenterMark: React.FC = () => {
             borderRadius: "50%",
             background: ACCENT,
             translate: "-50% -50%",
-            boxShadow: `0 0 12px 2px rgba(240,101,46,.6)`,
+            boxShadow: `0 0 12px 2px rgba(var(--accent-rgb),.6)`,
           }}
         />
       </div>
@@ -440,7 +512,7 @@ const Wordmark: React.FC = () => {
         letterSpacing: "-0.03em",
         lineHeight: 1,
         color: INK,
-        textShadow: `${split}px 0 rgba(240,101,46,${splitAlpha}), ${-split * 0.7}px 0 rgba(135,225,240,${splitAlpha * 0.8})`,
+        textShadow: `${split}px 0 rgba(var(--accent-rgb),${splitAlpha}), ${-split * 0.7}px 0 rgba(var(--cyan-rgb),${splitAlpha * 0.8})`,
         scale: interpolate(frame, [50, 58, 66], [1, 1.035, 1], {
           ...clamp,
           easing: EASE_OUT,
@@ -485,7 +557,7 @@ const Wordmark: React.FC = () => {
             ...clamp,
             easing: EASE_SNAP,
           }),
-          boxShadow: `0 0 18px 3px rgba(240,101,46,.35)`,
+          boxShadow: `0 0 18px 3px rgba(var(--accent-rgb),.35)`,
         }}
       />
     </div>
@@ -537,12 +609,19 @@ const Subtitle: React.FC = () => {
   );
 };
 
-export const ProfileOpening: React.FC = () => {
+export const ProfileOpening: React.FC<{ scheme?: Scheme }> = ({ scheme = "light" }) => {
   const { width } = useVideoConfig();
   return (
-    <AbsoluteFill style={{ backgroundColor: PAPER }}>
+    <AbsoluteFill
+      style={
+        {
+          backgroundColor: PAPER,
+          ...THEME[scheme],
+        } as React.CSSProperties
+      }
+    >
       <BlueprintGrid />
-      <PowerOn />
+      <PowerOn peak={THEME[scheme]["--flash-peak"]} />
       <CenterMark />
       <CornerTraces />
       <HorizontalSweep />
