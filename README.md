@@ -19,7 +19,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-intro-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-intro-light.svg" />
-  <img src="./assets/profile-intro-light.svg" alt="CS student at GDUFE and AI tooling builder exploring agentic workflows, context engineering, and developer experiences." width="100%" />
+  <img src="./assets/profile-intro-light.svg" alt="AI tooling builder exploring agentic workflows, context engineering, and developer experiences." width="100%" />
 </picture>
 
 <p>
@@ -83,7 +83,7 @@
           <img src="./assets/project-resume-skills-light.svg" alt="resume-skills — Claude Code skills for resume generation and job-description matching" width="100%" />
         </picture>
       </a>
-      <p><strong>Claude Code skills for resume generation and job-description matching.</strong></p>
+      <p><strong>Agent skills for resume generation and job-description matching.</strong></p>
       <p><code>Claude Code</code> <code>HTML</code></p>
       <p><a href="https://github.com/Chasen-Liao/resume-skills">Repository</a> · <a href="https://github.com/Chasen-Liao/resume-skills/issues">Discuss an idea</a></p>
       <a href="https://github.com/Chasen-Liao/resume-skills/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Chasen-Liao/resume-skills?style=flat-square&label=%E2%98%85&labelColor=17121A&color=DB2777" /></a>
@@ -107,6 +107,25 @@
 
 <br />
 
+### `// RECENT_WORK` · More things I’m building
+
+<table cellpadding="10" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Chasen-Liao/grokbot-and-pi">GAP · Grokbot And Pi</a></h3>
+      <p>Connect Grok Bot to Pi as a coding subagent through RPC, with webhook wake and a disaster-delete guard.</p>
+      <p><code>Agent orchestration · RPC</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Chasen-Liao/Chasen-Skills">Chasen Skills</a></h3>
+      <p>A collection of custom skills used in my own agent workflows.</p>
+      <p><code>Agent skills · Workflows</code></p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 ### `// GITHUB_SNAPSHOT` · GitHub snapshot
 
 <div align="center">
@@ -114,7 +133,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/github-stats-light.svg" />
-      <img src="./assets/github-stats-light.svg" alt="GitHub snapshot: 51 public repositories, 58 total stars, and 89 followers" width="100%" />
+      <img src="./assets/github-stats-light.svg" alt="GitHub snapshot: 72 public repositories, 499 total stars, and 121 followers; snapshot from 2026-11-12" width="100%" />
     </picture>
   </a>
 </div>
@@ -122,6 +141,8 @@
 <br />
 
 ### `// CONTRIBUTION_SNAKE` · Contribution signal
+
+<!-- Keep contributions visible by default; do not wrap this section in collapsed details. -->
 
 <table>
   <tr>
