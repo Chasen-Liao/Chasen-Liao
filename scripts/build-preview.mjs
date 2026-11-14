@@ -28,20 +28,22 @@ const page = (scheme) => {
 <html lang="zh-CN" data-color-mode="${scheme}" data-light-theme="light" data-dark-theme="dark">
 <head>
 <meta charset="utf-8">
+<base href="../../">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>README preview — ${scheme}</title>
-<link rel="stylesheet" href="../github-markdown.css">
+<link rel="stylesheet" href=".taste-skill/github-markdown.css">
 <style>
   html { color-scheme: ${scheme}; }
   body { margin: 0; background: ${scheme === "dark" ? "#0d1117" : "#ffffff"}; }
   .markdown-body { max-width: 1012px; margin: 24px auto; padding: 32px; box-sizing: border-box; }
   @media (max-width: 767px) { .markdown-body { margin: 0 auto; padding: 16px; } }
+  .markdown-body { background: ${scheme === "dark" ? "#0d1117" : "#ffffff"}; color: ${scheme === "dark" ? "#e6edf3" : "#1f2328"}; }
   ${force}
 </style>
 </head>
 <body>
 <main class="markdown-body">
-${readme}
+${readme.replaceAll("(prefers-color-scheme: dark)", scheme === "dark" ? "(min-width: 0px)" : "(max-width: 0px)")}
 </main>
 </body>
 </html>`;
