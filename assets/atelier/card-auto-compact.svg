@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-labelledby="t"><title id="t">Plate 07 — Pi Auto Compact</title><defs><pattern id="cd-07" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1" fill="rgba(22,20,18,0.08)"/></pattern><clipPath id="art-07"><rect x="20" y="20" width="520" height="154" rx="4"/></clipPath></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <rect x="6" y="6" width="548" height="348" rx="6" fill="#F7F3EB" stroke="#181614" stroke-width="1.5"/>
+
+    <!-- Bespoke Art Window -->
+    <rect x="20" y="20" width="520" height="154" rx="4" fill="#F2ECE0" stroke="#D5CDC0" stroke-width="1"/>
+    <g clip-path="url(#art-07)">
+      <rect x="20" y="20" width="520" height="154" fill="url(#cd-07)"/>
+      
+        <!-- Context window pressure meter -> 78% threshold -> ctx.compact() -> summary capsule -->
+        <text x="194" y="50" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#D94426">78%</text>
+        <rect x="58" y="64" width="174" height="72" rx="4" fill="#F7F3EB" stroke="#181614" stroke-width="1.4"/>
+        <!-- Filled context blocks up to threshold -->
+        <rect x="65" y="72" width="28" height="56" rx="2" fill="rgba(29,78,137,0.11)" stroke="#1D4E89" stroke-width="1"/>
+        <rect x="97" y="72" width="28" height="56" rx="2" fill="rgba(29,78,137,0.11)" stroke="#1D4E89" stroke-width="1"/>
+        <rect x="129" y="72" width="28" height="56" rx="2" fill="rgba(184,125,36,0.14)" stroke="#B87D24" stroke-width="1"/>
+        <rect x="161" y="72" width="27" height="56" rx="2" fill="rgba(217,68,38,0.13)" stroke="#D94426" stroke-width="1"/>
+        <!-- Threshold line + headroom space -->
+        <line x1="194" y1="56" x2="194" y2="142" stroke="#D94426" stroke-width="2" stroke-dasharray="3 2"/>
+        <polygon points="194,54 198,59 194,64 190,59" fill="#D94426"/>
+        <text x="58" y="155" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">CONTEXT</text>
+        <text x="232" y="155" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">HEADROOM</text>
+
+        <!-- Compression transition -->
+        <text x="295" y="74" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="600" fill="#3B352F">ctx.compact()</text>
+        <line x1="244" y1="100" x2="342" y2="100" stroke="#D94426" stroke-width="1.6" class="flow-x"/>
+        <path d="M270 86 L282 100 L270 114 M314 89 L324 100 L314 111" fill="none" stroke="#1D4E89" stroke-width="1.3" opacity="0.8"/>
+
+        <!-- Compacted summary capsule -->
+        <rect x="364" y="75" width="134" height="58" rx="4" fill="rgba(29,78,137,0.11)" stroke="#1D4E89" stroke-width="1"/>
+        <rect x="356" y="68" width="134" height="58" rx="4" fill="#F7F3EB" stroke="#181614" stroke-width="1.4"/>
+        <rect x="370" y="82" width="54" height="6" rx="1" fill="#D94426"/>
+        <rect x="370" y="96" width="102" height="4" rx="1" fill="#D5CDC0"/>
+        <rect x="370" y="106" width="84" height="4" rx="1" fill="#D5CDC0"/>
+        <text x="423" y="155" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">COMPACTED</text>
+      
+    </g>
+    <!-- Plate index tag in art window corner -->
+    <rect x="30" y="28" width="84" height="22" rx="2" fill="#F7F3EB" stroke="#D5CDC0" stroke-width="1"/>
+    <text x="72" y="43" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#D94426">PLATE 07</text>
+
+    <!-- Editorial Title + Action Arrow -->
+    <text x="22" y="216" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="25" font-weight="700" fill="#161412">Pi Auto Compact</text>
+    <text x="536" y="214" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" font-weight="700" fill="#D94426">↗</text>
+
+    <!-- Two-line Chinese description -->
+    <text x="22" y="250" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">Pi 极简上下文压缩扩展，发送前按阈值预压缩，</text>
+    <text x="22" y="276" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">并在每次工具调用前实时汇报上下文压力。</text>
+
+    <line x1="20" y1="296" x2="540" y2="296" stroke="#D5CDC0" stroke-width="1"/>
+    <rect x="20" y="308" width="120.80000000000001" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="80.4" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">PI EXTENSION</text><rect x="148.8" y="308" width="36.8" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="167.20000000000002" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">TS</text>
+    <text x="538" y="324" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" fill="#D94426">★ 12</text>
+  </svg>

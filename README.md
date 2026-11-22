@@ -9,7 +9,7 @@
 
 <p align="center"><a href="https://github.com/Chasen-Liao/grokbot-and-pi"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-gap.svg"/><img src="./assets/atelier/card-gap.svg" width="418" alt="GAP · Grokbot And Pi：RPC 接入 Grok Bot 与灾难删除保护"/></picture></a> <a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-ecc.svg"/><img src="./assets/atelier/card-ecc.svg" width="418" alt="Everything Claude Code 中文实践手册"/></picture></a></p>
 
-<p align="center"><a href="https://github.com/Chasen-Liao/pi-visualizer"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-visualizer.svg"/><img src="./assets/atelier/card-visualizer.svg" width="418" alt="Pi Visualizer：Pi Coding Agent 中文交互式架构教程"/></picture></a> <a href="https://github.com/Chasen-Liao/SuperMew"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-supermew.svg"/><img src="./assets/atelier/card-supermew.svg" width="418" alt="SuperMew：Agentic RAG 与三层记忆架构实验"/></picture></a></p>
+<p align="center"><a href="https://github.com/Chasen-Liao/pi-visualizer"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-visualizer.svg"/><img src="./assets/atelier/card-visualizer.svg" width="418" alt="Pi Visualizer：Pi Coding Agent 中文交互式架构教程"/></picture></a> <a href="https://github.com/Chasen-Liao/pi-auto-compact"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/card-auto-compact.svg"/><img src="./assets/atelier/card-auto-compact.svg" width="418" alt="Pi Auto Compact：Pi 极简上下文阈值预压缩与压力监控扩展"/></picture></a></p>
 
 <p align="center"><a href="mailto:2558891266@qq.com"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/atelier/dark/colophon-mobile.svg"/><source media="(max-width: 600px)" srcset="./assets/atelier/colophon-mobile.svg"/><source media="(prefers-color-scheme: dark)" srcset="./assets/atelier/dark/colophon.svg"/><img src="./assets/atelier/colophon.svg" width="840" alt="技术栈与交流方式：AI 产品经理 &amp; Agent 工程师，2558891266@qq.com"/></picture></a></p>
 
@@ -24,7 +24,7 @@
 <li><a href="https://github.com/Chasen-Liao/grokbot-and-pi">GAP · Grokbot And Pi</a>：通过 pi-task (RPC) 将 Pi 接入 Grok Bot，支持 Webhook 唤醒与灾难删除保护。</li>
 <li><a href="https://github.com/Chasen-Liao/Everything-claude-code-Doc">Everything Claude Code 中文实践文档</a>：持续整理工具使用方法、配置工作流与踩坑复盘。</li>
 <li><a href="https://github.com/Chasen-Liao/pi-visualizer">Pi Visualizer</a>：Pi Coding Agent 中文交互式架构教程，包含 6 章 14 课与可视化源码速查表。</li>
-<li><a href="https://github.com/Chasen-Liao/SuperMew">SuperMew</a>：Agentic RAG、Context Engineering 与三层记忆架构实验。</li>
+<li><a href="https://github.com/Chasen-Liao/pi-auto-compact">Pi Auto Compact</a>：Pi 极简上下文压缩扩展，支持发送前按可配置阈值预压缩，并在每次工具调用前汇报上下文压力。</li>
 </ul><p>日常使用 TypeScript、React、Electron、Python，在 X 与博客分享实测与构建记录。联系：<a href="mailto:2558891266@qq.com">2558891266@qq.com</a>。</p>
 </details>
 

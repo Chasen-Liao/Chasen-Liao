@@ -632,35 +632,42 @@ function buildCards(t) {
       `,
     }),
 
-    "card-supermew": cardShell({
+    "card-auto-compact": cardShell({
       plate: "07",
-      title: "SuperMew",
-      line1: "聚焦 Agentic RAG、Context Engineering",
-      line2: "上下文工程与三层记忆架构实验。",
-      tags: ["AGENTIC RAG", "PY"],
-      stat: "★ 3",
+      title: "Pi Auto Compact",
+      line1: "Pi 极简上下文压缩扩展，发送前按阈值预压缩，",
+      line2: "并在每次工具调用前实时汇报上下文压力。",
+      tags: ["PI EXTENSION", "TS"],
+      stat: "★ 12",
       accent: t.risoRed,
       t,
       art: `
-        <!-- 3-tier isometric floating memory strata + vertical retrieval ray -->
-        <g transform="translate(174 34)">
-          <!-- Semantic bottom layer -->
-          <polygon points="108,74 218,92 108,110 -2,92" fill="${t.risoBlueSoft}" stroke="${t.risoBlue}" stroke-width="1.2"/>
-          <!-- Episodic middle layer -->
-          <polygon points="108,44 218,62 108,80 -2,62" fill="${t.risoGoldSoft}" stroke="${t.risoGold}" stroke-width="1.2"/>
-          <!-- Working top layer -->
-          <polygon points="108,14 218,32 108,50 -2,32" fill="${t.bg}" stroke="${t.border}" stroke-width="1.4"/>
-          <!-- Vertical retrieval ray -->
-          <line x1="108" y1="0" x2="108" y2="118" stroke="${t.risoRed}" stroke-width="2" stroke-dasharray="3 3"/>
-          <circle cx="108" cy="32" r="4.5" fill="${t.risoRed}"/>
-          <circle cx="108" cy="62" r="4.5" fill="${t.risoGold}"/>
-          <circle cx="108" cy="92" r="4.5" fill="${t.risoBlue}"/>
-        </g>
-        <g font-family="${MONO}" font-size="10" fill="${t.faint}">
-          <text x="412" y="68">01 WORKING</text>
-          <text x="412" y="98">02 EPISODIC</text>
-          <text x="412" y="128">03 SEMANTIC</text>
-        </g>
+        <!-- Context window pressure meter -> 78% threshold -> ctx.compact() -> summary capsule -->
+        <text x="194" y="50" text-anchor="middle" font-family="${MONO}" font-size="10.5" font-weight="700" fill="${t.risoRed}">78%</text>
+        <rect x="58" y="64" width="174" height="72" rx="4" fill="${t.bg}" stroke="${t.border}" stroke-width="1.4"/>
+        <!-- Filled context blocks up to threshold -->
+        <rect x="65" y="72" width="28" height="56" rx="2" fill="${t.risoBlueSoft}" stroke="${t.risoBlue}" stroke-width="1"/>
+        <rect x="97" y="72" width="28" height="56" rx="2" fill="${t.risoBlueSoft}" stroke="${t.risoBlue}" stroke-width="1"/>
+        <rect x="129" y="72" width="28" height="56" rx="2" fill="${t.risoGoldSoft}" stroke="${t.risoGold}" stroke-width="1"/>
+        <rect x="161" y="72" width="27" height="56" rx="2" fill="${t.risoRedSoft}" stroke="${t.risoRed}" stroke-width="1"/>
+        <!-- Threshold line + headroom space -->
+        <line x1="194" y1="56" x2="194" y2="142" stroke="${t.risoRed}" stroke-width="2" stroke-dasharray="3 2"/>
+        <polygon points="194,54 198,59 194,64 190,59" fill="${t.risoRed}"/>
+        <text x="58" y="155" font-family="${MONO}" font-size="10" fill="${t.faint}">CONTEXT</text>
+        <text x="232" y="155" text-anchor="end" font-family="${MONO}" font-size="10" fill="${t.faint}">HEADROOM</text>
+
+        <!-- Compression transition -->
+        <text x="295" y="74" text-anchor="middle" font-family="${MONO}" font-size="10.5" font-weight="600" fill="${t.inkSoft}">ctx.compact()</text>
+        <line x1="244" y1="100" x2="342" y2="100" stroke="${t.risoRed}" stroke-width="1.6" class="flow-x"/>
+        <path d="M270 86 L282 100 L270 114 M314 89 L324 100 L314 111" fill="none" stroke="${t.risoBlue}" stroke-width="1.3" opacity="0.8"/>
+
+        <!-- Compacted summary capsule -->
+        <rect x="364" y="75" width="134" height="58" rx="4" fill="${t.risoBlueSoft}" stroke="${t.risoBlue}" stroke-width="1"/>
+        <rect x="356" y="68" width="134" height="58" rx="4" fill="${t.bg}" stroke="${t.border}" stroke-width="1.4"/>
+        <rect x="370" y="82" width="54" height="6" rx="1" fill="${t.risoRed}"/>
+        <rect x="370" y="96" width="102" height="4" rx="1" fill="${t.rule}"/>
+        <rect x="370" y="106" width="84" height="4" rx="1" fill="${t.rule}"/>
+        <text x="423" y="155" text-anchor="middle" font-family="${MONO}" font-size="10" fill="${t.faint}">COMPACTED</text>
       `,
     }),
   };
