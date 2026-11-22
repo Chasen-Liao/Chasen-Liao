@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" role="img" aria-labelledby="t"><title id="t">精选作品与实验 — Plates 02-07</title><defs></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <line x1="6" y1="38" x2="1194" y2="38" stroke="#D5CDC0" stroke-width="1"/>
+    <rect x="6" y="16" width="446" height="44" fill="#F7F3EB"/>
+    <rect x="12" y="29" width="16" height="16" fill="#D94426"/>
+    <polygon points="20,29 28,37 20,45 12,37" fill="#F7F3EB"/>
+    <text x="40" y="45" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="19" font-weight="700" letter-spacing="2" fill="#161412">SELECTED WORKS</text>
+    <text x="234" y="44" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="18" fill="#635C53">/  精选作品与实验</text>
+
+    <polygon points="600,30 608,38 600,46 592,38" fill="#F7F3EB" stroke="#D94426" stroke-width="1.5"/>
+
+    <rect x="920" y="16" width="274" height="44" fill="#F7F3EB"/>
+    <text x="1190" y="44" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="2" fill="#635C53">PLATES 02 — 07</text>
+  </svg>

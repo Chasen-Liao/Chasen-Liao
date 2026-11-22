@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-labelledby="t"><title id="t">Plate 03 — Chasen-Skills</title><defs><pattern id="cd-03" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1" fill="rgba(22,20,18,0.08)"/></pattern><clipPath id="art-03"><rect x="20" y="20" width="520" height="154" rx="4"/></clipPath></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <rect x="6" y="6" width="548" height="348" rx="6" fill="#F7F3EB" stroke="#181614" stroke-width="1.5"/>
+
+    <!-- Bespoke Art Window -->
+    <rect x="20" y="20" width="520" height="154" rx="4" fill="#F2ECE0" stroke="#D5CDC0" stroke-width="1"/>
+    <g clip-path="url(#art-03)">
+      <rect x="20" y="20" width="520" height="154" fill="url(#cd-03)"/>
+      
+        <!-- Bauhaus modular geometric skill constellation -->
+        <path d="M126 112 C210 46, 300 156, 386 84 L468 118" fill="none" stroke="#1D4E89" stroke-width="1.4" stroke-dasharray="4 5" opacity="0.65"/>
+        <line x1="224" y1="74" x2="320" y2="128" stroke="#D5CDC0" stroke-width="1.2"/>
+        <circle cx="126" cy="112" r="24" fill="rgba(217,68,38,0.13)" stroke="#D94426" stroke-width="1.4"/>
+        <circle cx="126" cy="112" r="6" fill="#D94426"/>
+        <rect x="200" y="50" width="44" height="44" rx="4" fill="#F7F3EB" stroke="#181614" stroke-width="1.4"/>
+        <rect x="212" y="62" width="20" height="20" fill="#1D4E89" opacity="0.85"/>
+        <polygon points="320,96 346,122 320,148 294,122" fill="rgba(184,125,36,0.14)" stroke="#B87D24" stroke-width="1.4"/>
+        <circle cx="386" cy="84" r="22" fill="#F7F3EB" stroke="#1D4E89" stroke-width="1.5"/>
+        <circle cx="386" cy="84" r="7" fill="#1D4E89"/>
+        <polygon points="468,94 489,106 489,130 468,142 447,130 447,106" fill="rgba(29,78,137,0.11)" stroke="#181614" stroke-width="1.3"/>
+        <text x="126" y="154" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">SWARM</text>
+        <text x="222" y="112" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">RADAR</text>
+        <text x="386" y="124" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">X-INTEL</text>
+        <text x="468" y="158" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#8A8175">IP-PACK</text>
+      
+    </g>
+    <!-- Plate index tag in art window corner -->
+    <rect x="30" y="28" width="84" height="22" rx="2" fill="#F7F3EB" stroke="#D5CDC0" stroke-width="1"/>
+    <text x="72" y="43" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#1D4E89">PLATE 03</text>
+
+    <!-- Editorial Title + Action Arrow -->
+    <text x="22" y="216" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="25" font-weight="700" fill="#161412">Chasen-Skills</text>
+    <text x="536" y="214" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" font-weight="700" fill="#1D4E89">↗</text>
+
+    <!-- Two-line Chinese description -->
+    <text x="22" y="250" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">日常自研 Agent 技能库：涵盖并行编排、</text>
+    <text x="22" y="276" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">X 内容洞察、AI 热点雷达与个人 IP 视觉资产。</text>
+
+    <line x1="20" y1="296" x2="540" y2="296" stroke="#D5CDC0" stroke-width="1"/>
+    <rect x="20" y="308" width="112.4" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="76.2" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">SKILLS PACK</text><rect x="140.4" y="308" width="36.8" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="158.8" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">PY</text>
+    <text x="538" y="324" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" fill="#1D4E89">★ 33</text>
+  </svg>

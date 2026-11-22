@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="t"><title id="t">Plate 08 — 技术栈与交流联系方式（移动端）</title><defs><pattern id="colm-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="rgba(22,20,18,0.08)"/></pattern></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <rect x="6" y="6" width="628" height="368" rx="6" fill="#F7F3EB" stroke="#181614" stroke-width="1.5"/>
+    <rect x="6" y="6" width="628" height="368" rx="6" fill="url(#colm-dots)"/>
+
+    <text x="30" y="46" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.8" fill="#1D4E89">08  /  CRAFT &amp; STACK</text>
+    <text x="30" y="82" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="16" font-weight="600" fill="#161412">AI 产品设计 · Agent 工作流 · 开发者工具</text>
+    <text x="30" y="112" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#3B352F">TypeScript · React · Electron · Python</text>
+    <text x="30" y="142" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="14.5" fill="#635C53">在 X 与博客持续分享 AI 实测和构建记录</text>
+
+    <line x1="30" y1="170" x2="610" y2="170" stroke="#D5CDC0" stroke-width="1"/>
+
+    <text x="30" y="206" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" letter-spacing="1.8" fill="#D94426">OPEN TO CONNECT</text>
+    <text x="30" y="246" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="25" font-weight="700" fill="#161412">AI 产品经理 &amp; Agent 工程师</text>
+    <text x="30" y="280" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15.5" fill="#635C53">关注广州 / 深圳的校招机会与开源合作</text>
+
+    <rect x="30" y="306" width="276" height="42" rx="4" fill="rgba(217,68,38,0.13)" stroke="#D94426" stroke-width="1.2"/>
+    <text x="168" y="332" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#D94426">2558891266@qq.com  ↗</text>
+    <g transform="translate(558 302)">
+    <rect x="0" y="0" width="48" height="48" rx="4" fill="none" stroke="#D94426" stroke-width="1.8"/>
+    <rect x="3.5" y="3.5" width="41" height="41" rx="2" fill="rgba(217,68,38,0.13)" stroke="#D94426" stroke-width="0.7" opacity="0.85"/>
+    <path d="M24 6V42M6 24H42" stroke="#D94426" stroke-width="0.7" opacity="0.35"/>
+    <text x="24" y="20.5" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#D94426">CL</text>
+    <text x="24" y="35.5" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="10.5" font-weight="700" fill="#D94426">造物</text>
+  </g>
+  </svg>

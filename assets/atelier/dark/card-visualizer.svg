@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-labelledby="t"><title id="t">Plate 06 — Pi Visualizer</title><defs><pattern id="cd-06" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1" fill="rgba(244,237,226,0.075)"/></pattern><clipPath id="art-06"><rect x="20" y="20" width="520" height="154" rx="4"/></clipPath></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <rect x="6" y="6" width="548" height="348" rx="6" fill="#13110F" stroke="#3D362E" stroke-width="1.5"/>
+
+    <!-- Bespoke Art Window -->
+    <rect x="20" y="20" width="520" height="154" rx="4" fill="#181512" stroke="#2A2520" stroke-width="1"/>
+    <g clip-path="url(#art-06)">
+      <rect x="20" y="20" width="520" height="154" fill="url(#cd-06)"/>
+      
+        <!-- Concentric prism loop & 6-chapter topology -->
+        <g transform="translate(284 96)">
+          <circle r="54" fill="none" stroke="#2A2520" stroke-width="1"/>
+          <circle r="38" fill="rgba(91,155,240,0.15)" stroke="#5B9BF0" stroke-width="1.3" stroke-dasharray="6 4" class="spin-slow"/>
+          <circle r="18" fill="#13110F" stroke="#F26444" stroke-width="1.6"/>
+          <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" font-weight="700" fill="#F4EDE2">LOOP</text>
+          <circle cx="-118" cy="-22" r="8" fill="#13110F" stroke="#5B9BF0" stroke-width="1.5"/>
+          <circle cx="-118" cy="24" r="8" fill="#13110F" stroke="#E2AD52" stroke-width="1.5"/>
+          <circle cx="118" cy="-22" r="8" fill="#13110F" stroke="#F26444" stroke-width="1.5"/>
+          <circle cx="118" cy="24" r="8" fill="#13110F" stroke="#5B9BF0" stroke-width="1.5"/>
+          <path d="M-110 -22 H-52 M-110 24 H-52 M52 -22 H110 M52 24 H110" stroke="#5B9BF0" stroke-width="1.1" opacity="0.65"/>
+        </g>
+        <text x="518" y="43" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="700" fill="#5B9BF0">6 CHAPTERS · 14 LESSONS</text>
+      
+    </g>
+    <!-- Plate index tag in art window corner -->
+    <rect x="30" y="28" width="84" height="22" rx="2" fill="#13110F" stroke="#2A2520" stroke-width="1"/>
+    <text x="72" y="43" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#5B9BF0">PLATE 06</text>
+
+    <!-- Editorial Title + Action Arrow -->
+    <text x="22" y="216" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="25" font-weight="700" fill="#F4EDE2">Pi Visualizer</text>
+    <text x="536" y="214" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" font-weight="700" fill="#5B9BF0">↗</text>
+
+    <!-- Two-line Chinese description -->
+    <text x="22" y="250" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#A89E90">Pi Coding Agent 中文交互式架构教程，</text>
+    <text x="22" y="276" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#A89E90">含 6 章 14 课拆解与可视化源码速查表。</text>
+
+    <line x1="20" y1="296" x2="540" y2="296" stroke="#2A2520" stroke-width="1"/>
+    <rect x="20" y="308" width="112.4" height="24" rx="3" fill="#24201B" stroke="#2A2520" stroke-width="1"/><text x="76.2" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#D5CCC0">INTERACTIVE</text><rect x="140.4" y="308" width="36.8" height="24" rx="3" fill="#24201B" stroke="#2A2520" stroke-width="1"/><text x="158.8" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#D5CCC0">TS</text>
+    <text x="538" y="324" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" fill="#5B9BF0">★ 7 · NEW</text>
+  </svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-labelledby="t"><title id="t">Plate 02 — Resume Skills</title><defs><pattern id="cd-02" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="1" fill="rgba(22,20,18,0.08)"/></pattern><clipPath id="art-02"><rect x="20" y="20" width="520" height="154" rx="4"/></clipPath></defs><style>
+  .pulse { animation: pulse 3.2s ease-in-out infinite; }
+  .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 46s linear infinite; }
+  .spin-rev { transform-box: fill-box; transform-origin: center; animation: spinRev 64s linear infinite; }
+  .scan-y { animation: scanY 5.2s ease-in-out infinite; }
+  .flow-x { stroke-dasharray: 6 7; animation: flowX 4s linear infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 0.42; transform: scale(0.92); } 50% { opacity: 1; transform: scale(1.06); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes spinRev { to { transform: rotate(-360deg); } }
+  @keyframes scanY { 0%, 100% { transform: translateY(0px); opacity: 0.35; } 50% { transform: translateY(82px); opacity: 0.85; } }
+  @keyframes flowX { to { stroke-dashoffset: -26; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+    <rect x="6" y="6" width="548" height="348" rx="6" fill="#F7F3EB" stroke="#181614" stroke-width="1.5"/>
+
+    <!-- Bespoke Art Window -->
+    <rect x="20" y="20" width="520" height="154" rx="4" fill="#F2ECE0" stroke="#D5CDC0" stroke-width="1"/>
+    <g clip-path="url(#art-02)">
+      <rect x="20" y="20" width="520" height="154" fill="url(#cd-02)"/>
+      
+        <!-- Offset resume dossier sheets -->
+        <rect x="268" y="36" width="128" height="128" rx="3" fill="rgba(29,78,137,0.11)" stroke="#1D4E89" stroke-width="1"/>
+        <rect x="248" y="28" width="132" height="136" rx="3" fill="#F7F3EB" stroke="#181614" stroke-width="1.3"/>
+        <rect x="262" y="42" width="54" height="8" rx="1" fill="#161412"/>
+        <rect x="262" y="56" width="88" height="4" rx="1" fill="#D5CDC0"/>
+        <rect x="262" y="72" width="102" height="6" rx="1" fill="rgba(217,68,38,0.13)"/>
+        <rect x="262" y="72" width="42" height="6" rx="1" fill="#D94426"/>
+        <rect x="262" y="88" width="96" height="4" rx="1" fill="#D5CDC0"/>
+        <rect x="262" y="98" width="82" height="4" rx="1" fill="#D5CDC0"/>
+        <rect x="262" y="114" width="102" height="6" rx="1" fill="rgba(29,78,137,0.11)"/>
+        <rect x="262" y="114" width="66" height="6" rx="1" fill="#1D4E89"/>
+        <rect x="262" y="130" width="90" height="4" rx="1" fill="#D5CDC0"/>
+        <rect x="262" y="140" width="60" height="4" rx="1" fill="#D5CDC0"/>
+        <!-- Animated ATS scan beam -->
+        <line x1="234" y1="44" x2="404" y2="44" stroke="#D94426" stroke-width="2" class="scan-y"/>
+        <!-- Match gauge -->
+        <circle cx="464" cy="96" r="36" fill="none" stroke="#D5CDC0" stroke-width="6"/>
+        <circle cx="464" cy="96" r="36" fill="none" stroke="#D94426" stroke-width="6" stroke-dasharray="198 226" stroke-linecap="round" transform="rotate(-90 464 96)"/>
+        <text x="464" y="101" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#161412">ATS+</text>
+        <text x="64" y="138" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#8A8175">FACTS → JD MATCH</text>
+      
+    </g>
+    <!-- Plate index tag in art window corner -->
+    <rect x="30" y="28" width="84" height="22" rx="2" fill="#F7F3EB" stroke="#D5CDC0" stroke-width="1"/>
+    <text x="72" y="43" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#D94426">PLATE 02</text>
+
+    <!-- Editorial Title + Action Arrow -->
+    <text x="22" y="216" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="25" font-weight="700" fill="#161412">Resume Skills</text>
+    <text x="536" y="214" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="18" font-weight="700" fill="#D94426">↗</text>
+
+    <!-- Two-line Chinese description -->
+    <text x="22" y="250" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">从真实经历提炼母版，按岗位 JD 定制改写，</text>
+    <text x="22" y="276" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC','Segoe UI',sans-serif" font-size="15" fill="#635C53">内置 ATS 可读性体检与本地 Canvas 微调。</text>
+
+    <line x1="20" y1="296" x2="540" y2="296" stroke="#D5CDC0" stroke-width="1"/>
+    <rect x="20" y="308" width="112.4" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="76.2" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">AGENT SKILL</text><rect x="140.4" y="308" width="36.8" height="24" rx="3" fill="#E6DFD1" stroke="#D5CDC0" stroke-width="1"/><text x="158.8" y="324" text-anchor="middle" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#3B352F">JS</text>
+    <text x="538" y="324" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700" fill="#D94426">★ 49</text>
+  </svg>
